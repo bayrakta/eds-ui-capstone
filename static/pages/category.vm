@@ -1,0 +1,35 @@
+<link rel="stylesheet" href="/css/pages/category.css"/>
+
+<main class="page-content-wrapper">
+    <div>
+        <h1 class="page-content-header"></h1>
+        <section class="products">
+        </section>
+    </div>
+</main>
+
+<template id="productTemplate">
+    <div class="product-item">
+        <a href="/pages/product-details.html?id=0" class="product-image">
+            <img src="tbd" alt="TBD" loading="lazy">
+        </a>
+        <a href="/pages/product-details.html?id=0" class="product-title-link">
+            <span class="product-title-text">
+            </span>
+        </a>
+        <a href="/pages/product-details.html?id=0" class="product-price-link">
+            <span class="product-price-text">
+            </span>
+        </a>
+        <button
+                type="button"
+                class="button action small nav-link"
+                aria-haspopup="menu">
+            <span class="button-wrap">
+                <img class="icon" src="/assets/favorite-heart.png" alt="Add To Cart"/>
+            </span>
+        </button>
+    </div>
+</template>
+
+<script defer src="/js/pages/category.js" type="module"></script>

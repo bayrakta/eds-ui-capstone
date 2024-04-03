@@ -1,0 +1,53 @@
+<link rel="stylesheet" href="/css/pages/shopping-cart.css"/>
+
+<main class="page-content-wrapper">
+    <div class="shopping-cart-wrapper">
+        <h1>Shopping Cart</h1>
+
+        <table class="shopping-cart-table">
+            <thead>
+            <tr>
+                <td>Name</td>
+                <td>Quantity</td>
+                <td>Total</td>
+            </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <div class="table-actions">
+            <button
+                    type="button"
+                    class="button action small checkout"
+                    aria-haspopup="menu">
+            <span class="button-wrap">
+                CHECKOUT
+            </span>
+            </button>
+            <button
+                    type="button"
+                    class="button action small remove-all"
+                    aria-haspopup="menu">
+            <span class="button-wrap">
+                REMOVE ALL
+            </span>
+            </button>
+        </div>
+    </div>
+</main>
+
+<template id="shopping-cart-table-row">
+    <tr>
+        <td class="product-summary">
+            <span>
+                <img alt="TBD" loading="lazy">
+            </span>
+            <span>
+            </span>
+        </td>
+        <td></td>
+        <td></td>
+    </tr>
+</template>
+
+<script defer src="/js/pages/shopping-cart.js" type="module"></script>

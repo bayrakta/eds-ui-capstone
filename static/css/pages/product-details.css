@@ -1,0 +1,27 @@
+.page-content-wrapper {
+    justify-content: center;
+}
+
+.product-details-wrapper {
+    max-width: 80%;
+}
+
+.product-details {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.6rem;
+}
+
+.product-details .product-img {
+    height: auto;
+    width: 640px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+    align-self: center;
+}
+
+.product-description-text {
+    font-size: 0.9rem;
+}

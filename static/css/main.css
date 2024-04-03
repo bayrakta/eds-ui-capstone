@@ -1,0 +1,5 @@
+@import url('base.css');
+
+/* Components */
+@import url('sections/header.css');
+@import url('sections/footer.css');

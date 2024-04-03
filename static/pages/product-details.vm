@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/css/pages/product-details.css"/>
+
+<main class="page-content-wrapper">
+    <div class="product-details-wrapper">
+        <h1 class="page-content-header"></h1>
+        <section class="product-details">
+            <img alt="TBD" loading="lazy" class="product-img">
+            <span class="product-description-text">
+            </span>
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu">
+            <span class="button-wrap">
+                <img class="icon" src="/assets/favorite-heart.png" alt="Add To Cart"/>
+            </span>
+            </button>
+        </section>
+    </div>
+</main>
+
+<script defer src="/js/pages/product-details.js" type="module"></script>

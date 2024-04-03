@@ -1,0 +1,29 @@
+
+@media only screen and (max-width: 768px) {
+
+    .footer-row {
+        flex-direction: column;
+    }
+
+    .footer-row-box {
+        padding-block-start: 1.2em;
+    }
+
+    .follow-us-text {
+        padding-inline-start: 0.2em;
+    }
+
+    .footer-row-box-item {
+        margin-block-start: 0.4em;
+    }
+
+    .footer-bottomrow {
+        flex-direction: column-reverse;
+    }
+
+    .footer-bottomrow-box:nth-child(odd), .footer-bottomrow-box:nth-child(even) {
+        align-items: center;
+        margin-inline-start: unset;
+    }
+
+}

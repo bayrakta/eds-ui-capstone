@@ -1,0 +1,27 @@
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.products a {
+    text-decoration: none;
+    color: var(--text-secondary);
+}
+
+.products .product-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    align-items: flex-start;
+    gap: 0.6rem;
+}
+
+.product-item .product-image img {
+    height: auto;
+    width: 320px;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}

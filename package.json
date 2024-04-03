@@ -1,0 +1,23 @@
+{
+  "name": "eds-ui-capstone",
+  "version": "1.0.0",
+  "description": "EDS Enablement - UI Capstone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js"
+  },
+  "keywords": [
+    "eds",
+    "ui",
+    "capstone"
+  ],
+  "author": "Yunus Bayraktar",
+  "license": "ISC",
+  "dependencies": {
+    "velocityjs": "^2.0.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0"
+  }
+}

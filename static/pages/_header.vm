@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Venia</title>
+    <link rel="stylesheet" href="/css/main.css"/>
+    <script defer src="/js/base.js" type="module"></script>
+</head>
+
+<body>
+<nav class="header">
+    <ul class="nav-menu">
+        <li class="nav-item">
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu" data-href="/">
+                <span class="button-wrap">Home</span>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu" data-href="/pages/category.html?category=women's clothing">
+                <span class="button-wrap">Women</span>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu" data-href="/pages/category.html?category=men's clothing">
+                <span class="button-wrap">Men</span>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu" data-href="/pages/category.html?category=jewelery">
+                <span class="button-wrap">Jewelery</span>
+            </button>
+        </li>
+        <li class="nav-item">
+            <button
+                    type="button"
+                    class="button action small nav-link"
+                    aria-haspopup="menu" data-href="/pages/category.html?category=electronics">
+                <span class="button-wrap">Electronics</span>
+            </button>
+        </li>
+    </ul>
+    <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+    </div>
+
+    <div class="header-box">
+        <span class="logo-text">VENIA</span>
+    </div>
+
+    <div class="header-box mobile-hidden">
+        <ul class="header-menu">
+            <li>
+                <button
+                        type="button"
+                        class="button action small nav-link"
+                        aria-haspopup="menu" data-href="/">
+                    <span class="button-wrap">Home</span>
+                </button>
+            </li>
+            <li>
+                <button
+                        type="button"
+                        class="button action small nav-link"
+                        aria-haspopup="menu" data-href="/pages/category.html?category=women's clothing"
+                >
+                    <span class="button-wrap">Women</span>
+                </button>
+            </li>
+            <li>
+                <button
+                        type="button"
+                        class="button action small nav-link"
+                        aria-haspopup="menu" data-href="/pages/category.html?category=men's clothing"
+                >
+                    <span class="button-wrap">Men</span>
+                </button>
+            </li>
+            <li>
+                <button
+                        type="button"
+                        class="button action small nav-link"
+                        aria-haspopup="menu" data-href="/pages/category.html?category=jewelery"
+                >
+                    <span class="button-wrap">Jewelery</span>
+                </button>
+            </li>
+            <li>
+                <button
+                        type="button"
+                        class="button action small nav-link"
+                        aria-haspopup="menu" data-href="/pages/category.html?category=electronics"
+                >
+                    <span class="button-wrap">Electronics</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+    <div class="header-box">
+        <ul class="header-actions-menu">
+            <li>
+                <button
+                        type="button"
+                        class="button action has-icon small nav-link"
+                        aria-haspopup="menu" data-href="/pages/shopping-cart.html"
+                >
+              <span class="button-wrap">
+                <img class="icon" src="/assets/1-shopping-bag.jpg" alt="shopping bag"/>
+              </span>
+                    <span id="basketBadge" class="badge">0</span>
+                </button>
+            </li>
+        </ul>
+    </div>
+
+</nav>

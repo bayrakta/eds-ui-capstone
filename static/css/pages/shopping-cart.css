@@ -1,0 +1,53 @@
+.page-content-wrapper {
+    justify-content: center;
+}
+
+.shopping-cart-wrapper {
+    max-width: 80%;
+    margin-block-end: 2rem;
+}
+
+.shopping-cart-table tr {
+    line-height: 3.2rem;
+}
+
+.shopping-cart-table tr > td > span > img {
+    max-width: 30px;
+    display: inline-block;
+    margin-right: 1rem;
+    aspect-ratio: 1 / 1;
+}
+
+.shopping-cart-table {
+    border-collapse: collapse;
+}
+
+.shopping-cart-table td {
+    padding-inline-start: 0.4rem;
+    padding-inline-end: 0.4rem;
+}
+
+.shopping-cart-table thead {
+    background-color: #ccc;
+}
+
+.shopping-cart-table tr:last-child {
+    font-weight: bold;
+    padding-block-start: 2rem;
+}
+
+.table-actions {
+    margin-block-start: 1rem;
+}
+
+.checkout .button-wrap {
+    background-color: #1264DF;
+    color: white;
+    letter-spacing: 0.04rem;
+}
+
+.remove-all .button-wrap {
+    background-color: red;
+    color: white;
+    letter-spacing: 0.04rem;
+}

@@ -1,0 +1,131 @@
+<div class="footer">
+    <div class="footer-row">
+        <div class="footer-row-box">
+            <div class="footer-row-box-item">
+                <span>Account</span>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Sign In</span>
+                </button>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Register</span>
+                </button>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Order Status</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-row-box">
+            <div class="footer-row-box-item">
+                <span>About Us</span>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Our Story</span>
+                </button>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Careers</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-row-box">
+            <div class="footer-row-box-item">
+                <span>Help</span>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Contact Us</span>
+                </button>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Order Status</span>
+                </button>
+            </div>
+            <div class="footer-row-box-item">
+                <button type="button" class="button action small">
+                    <span class="button-wrap">Returns</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="footer-row-box">
+            <div class="footer-row-box-item">
+                <span>Follow Us!</span>
+            </div>
+            <div class="footer-row-box-item">
+            <span class="follow-us-text"
+            >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.</span
+            >
+            </div>
+
+            <div class="footer-row-box-item">
+                <div class="footer-socialmedia">
+                    <button
+                            type="button"
+                            class="button action has-icon small">
+                <span class="button-wrap">
+                  <img class="icon" src="/assets/1-instagram.jpg" alt="instagram"/>
+                </span>
+                    </button>
+                </div>
+
+                <div class="footer-socialmedia">
+                    <button
+                            type="button"
+                            class="button action has-icon small">
+                <span class="button-wrap">
+                  <img class="icon" src="/assets/1-facebook.jpg" alt="facebook"/>
+                </span>
+                    </button>
+                </div>
+
+                <div class="footer-socialmedia">
+                    <button
+                            type="button"
+                            class="button action has-icon small">
+                <span class="button-wrap">
+                  <img class="icon" src="/assets/1-twitter.jpg" alt="twitter"/>
+                </span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottomrow">
+        <div class="footer-bottomrow-box">
+            <div class="footer-bottomrow-box-item">
+                <span class="logo-text">VENIA</span>
+            </div>
+        </div>
+
+        <div class="footer-bottomrow-box">
+            <div class="footer-bottomrow-box-item">
+                <span class="copyright-text">&copy; Company Name Address Ave, City Name, State ZIP</span>
+            </div>
+        </div>
+        <div class="footer-bottomrow-box">
+            <div class="footer-bottomrow-box-item">
+                <ul>
+                    <li><a class="footer-bottom-link" href="termsOfUse">Terms of Use</a></li>
+                    <li><a class="footer-bottom-link" href="privacyPolicy">Privacy Policy</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

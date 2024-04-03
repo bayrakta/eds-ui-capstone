@@ -1,0 +1,79 @@
+<link rel="stylesheet" href="/css/pages/home-page.css"/>
+
+<main class="page-content-wrapper">
+    <div>
+        <h1 class="page-content-header">Shop the new arrivals!</h1>
+        <section class="categories">
+            <div class="category-item">
+                <a href="/pages/category.html?category=women's clothing" class="category-image">
+                    <div>
+                        <img src="https://fakestoreapi.com/img/71z3kpMAYsL._AC_UY879_.jpg" alt="Shop Women" loading="lazy">
+                    </div>
+                    <div class="overlay-wrapper">
+                        <div class="overlay-content">
+                            <span class="category-title-text">
+                                Shop Women
+                            </span>
+                            <span class="category-description-text">
+                                Lorem ipsum dolor sit amet
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="/pages/category.html?category=men's clothing" class="category-image">
+                    <div>
+                        <img src="https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg" alt="Shop Men" loading="lazy">
+                    </div>
+                    <div class="overlay-wrapper">
+                        <div class="overlay-content">
+                            <span class="category-title-text">
+                                Shop Men
+                            </span>
+                            <span class="category-description-text">
+                                Lorem ipsum dolor sit amet
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="/pages/category.html?category=electronics" class="category-image">
+                    <div>
+                        <img src="https://fakestoreapi.com/img/71YAIFU48IL._AC_UL640_QL65_ML3_.jpg" alt="Shop Jewelery" loading="lazy">
+                    </div>
+                    <div class="overlay-wrapper">
+                        <div class="overlay-content">
+                            <span class="category-title-text">
+                                Shop Jewelery
+                            </span>
+                            <span class="category-description-text">
+                                Lorem ipsum dolor sit amet
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="category-item">
+                <a href="/pages/category.html?category=electronics" class="category-image">
+                    <div>
+                        <img src="https://fakestoreapi.com/img/81Zt42ioCgL._AC_SX679_.jpg" alt="Shop Electronics" loading="lazy">
+                    </div>
+                    <div class="overlay-wrapper">
+                        <div class="overlay-content">
+                            <span class="category-title-text">
+                                Shop Electronics
+                            </span>
+                            <span class="category-description-text">
+                                Lorem ipsum dolor sit amet
+                            </span>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+</main>
+
+<script defer src="/js/pages/home-page.js" type="module"></script>
